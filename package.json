@@ -1,24 +1,34 @@
 {
-  "name": "grocery",
+  "name": "facebook-redesign",
   "version": "1.0.0",
-  "private": true,
+  "description": "Facebook redesign using Nuxt, Vue, TailwindCSS",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "format:check": "prettier --check './**/*.{js,ts,css,html,vue}'",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js"
   },
+  "author": "Swadesh Behera <swadesh@litekart.in>",
+  "license": "MIT",
+  "homepage": "https://github.com/itswadesh/facebook-redesign#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itswadesh/facebook-redesign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itswadesh/facebook-redesign/issues"
+  },
   "dependencies": {
-    "@nuxt/content": "^1.3.2",
-    "@nuxtjs/axios": "^5.11.0",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.13.0",
-    "vue-feather-icons": "^5.0.0"
+    "nuxt": "^2.13.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "vue-feather-icons": "^5.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/tailwindcss": "^2.0.0",
     "babel-eslint": "^10.1.0",
