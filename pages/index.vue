@@ -48,7 +48,7 @@ export default {
 </script>
 <style scoped>
 .menu {
-  border-top-right-radius: 60px;
+  border-top-right-radius: 40px;
 }
 .ip {
   border-top-left-radius: 100px;

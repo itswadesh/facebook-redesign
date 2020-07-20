@@ -1,7 +1,7 @@
 <template>
   <div class="p-2 bg-white rounded-t shadow-2xl lg:p-4">
-    <div class="flex justify-between">
-      <div class="flex">
+    <div class="flex items-center justify-between">
+      <div class="flex mb-3">
         <img
           src="/img/p3.jpg"
           alt
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <button class="font-bold text-gray-600 focus:outline-none">
+      <button class="mb-2 font-bold text-gray-600 focus:outline-none">
         <MoreHorizontalIcon />
       </button>
     </div>
