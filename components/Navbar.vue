@@ -5,13 +5,13 @@
       class="my-1 text-xs bg-blue-900 rounded-full focus:outline-none lg:flex lg:text-xl lg:my-auto lg:w-1/3"
     />
     <div class="justify-around hidden my-auto font-light text-white lg:flex">
-      <div class="px-4">
+      <button class="px-4 focus:outline-none">
         <BellIcon class />
-      </div>
-      <div class="px-4">
+      </button>
+      <button class="px-4 focus:outline-none">
         <SettingsIcon class />
-      </div>
-      <div class="px-4">
+      </button>
+      <div class="px-4 focus:outline-none">
         <CheckCircleIcon />
       </div>
     </div>

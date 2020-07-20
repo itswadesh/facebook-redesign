@@ -20,7 +20,9 @@
       </div>
     </div>
     <div class="flex justify-center mt-5">
-      <button class="flex px-16 py-2 text-xs text-white bg-blue-800 rounded-lg">
+      <button
+        class="flex px-16 py-2 text-xs text-white bg-blue-800 rounded-lg focus:outline-none hover:bg-blue-700"
+      >
         <StarIcon class="items-center w-4 h-4" />
         <div class="mx-2 py-auto">is intrested</div>
       </button>
@@ -59,9 +61,11 @@
         <div class="pr-40 mb-1 text-sm font-semibold">Aliah pitts</div>
         <div class="flex justify-between">
           <button
-            class="w-full py-2 text-xs font-semibold text-white bg-blue-800 rounded-lg"
+            class="w-full py-2 text-xs font-semibold text-white bg-blue-800 rounded-lg hover:bg-blue-700 focus:outline-none"
           >Confirm</button>
-          <button class="w-full py-2 ml-2 text-xs font-semibold bg-gray-400 rounded-lg">Remove</button>
+          <button
+            class="w-full py-2 ml-2 text-xs font-semibold bg-gray-400 rounded-lg hover:bg-gray-200 focus:outline-none"
+          >Remove</button>
         </div>
       </div>
     </div>

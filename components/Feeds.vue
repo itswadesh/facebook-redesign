@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <button class="font-bold text-gray-600">
+      <button class="font-bold text-gray-600 focus:outline-none">
         <MoreHorizontalIcon />
       </button>
     </div>

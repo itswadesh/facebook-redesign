@@ -6,19 +6,19 @@
     </div>
     <div class="flex justify-between px-1 py-1 text-gray-500 border rounded-lg lg:px-5">
       <div class="flex text-xs">
-        <button class="flex mx-2 my-auto hover:text-blue-500">
+        <button class="flex mx-2 my-auto hover:text-blue-500 focus:outline-none">
           <div class="p-1 lg:mx-1">
             <ThumbsUpIcon />
           </div>
           <div class="my-auto">like</div>
         </button>
-        <button class="flex mx-2 my-auto hover:text-blue-500">
+        <button class="flex mx-2 my-auto hover:text-blue-500 focus:outline-none">
           <div class="p-1 lg:mx-1">
             <MessageCircleIcon />
           </div>
           <div class="my-auto">comment</div>
         </button>
-        <button class="flex mx-2 my-auto hover:text-blue-500">
+        <button class="flex mx-2 my-auto hover:text-blue-500 focus:outline-none">
           <div class="p-1 lg:mx-1">
             <Share2Icon />
           </div>
