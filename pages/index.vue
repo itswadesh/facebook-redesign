@@ -1,19 +1,21 @@
 <template>
   <div>
     <Navbar />
-    <div class="lg:flex">
-      <div class="relative hidden w-1/4 text-gray-700 bg-gray-300 lg:flex">
-        <Menu />
-      </div>
-      <div class="bg-gray-300 lg:w-full justify-left">
-        <div class="px-2 py-2 lg:px-4 lg:my-3">
-          <Addstory />
-          <Story />
-          <Feeds />
-          <Review />
+    <div class="flex-no-wrap xl:flex">
+      <div class="md:flex">
+        <div class="relative hidden w-1/4 text-gray-700 bg-gray-300 lg:flex">
+          <Menu />
+        </div>
+        <div class="bg-gray-300 lg:w-full">
+          <div class="px-2 py-2 lg:px-4 lg:my-3">
+            <Addstory />
+            <Story />
+            <Feeds />
+            <Review />
+          </div>
         </div>
       </div>
-      <div class="px-2 pt-2 bg-gray-200 lg:w-1/3 lg:px-10 lg:flex lg:flex-col">
+      <div class="px-2 pt-2 bg-gray-200 xl:flex-col lg:hidden xl:flex lg:w-1/3 lg:px-10">
         <Upcomingevents />
         <Instantgames />
       </div>
