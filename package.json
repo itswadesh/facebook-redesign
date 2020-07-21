@@ -4,7 +4,7 @@
   "description": "Facebook redesign using Nuxt, Vue, TailwindCSS",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "format:check": "prettier --check './**/*.{js,ts,css,html,vue}'",
     "generate": "nuxt generate",
