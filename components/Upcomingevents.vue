@@ -4,7 +4,7 @@
       <div class="flex justify-between">
         <div class="text-sm font-semibold">Upcoming events</div>
         <div class="text-xs font-semibold text-blue-500">
-          <a herf>See All</a>
+          <a herf="/">See All</a>
         </div>
       </div>
       <div>

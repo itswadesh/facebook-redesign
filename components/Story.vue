@@ -3,7 +3,7 @@
     <div class="flex justify-between pt-2 pb-4">
       <div class="font-bold">Stories</div>
       <div class="text-xs text-blue-500">
-        <a herf>see all</a>
+        <a herf="/">See all</a>
       </div>
     </div>
     <div>

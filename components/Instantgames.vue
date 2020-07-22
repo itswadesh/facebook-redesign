@@ -3,7 +3,7 @@
     <div class="flex justify-between">
       <div class="text-sm font-semibold text-gray-700">Instant Games</div>
       <div class="text-xs font-semibold text-blue-500">
-        <a href>See All</a>
+        <a href="/">See All</a>
       </div>
     </div>
     <div class="flex justify-between pb-2 mt-2 mb-2 border-b">

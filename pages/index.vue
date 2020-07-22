@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class>
     <Navbar />
     <div class="flex-no-wrap justify-between w-full bg-gray-300 xl:flex">
       <div class="flex-1 md:flex">

@@ -3,7 +3,7 @@
     <div class="my-1 text-sm font-semibold lg:text-2xl lg:my-2">facebook</div>
     <div class="hidden w-full ml-6 md:block md:max-w-xs xl:max-w-sm">
       <form class="relative text-center" novalidate autocomplete="off">
-        <div class="absolute top-0 my-5">
+        <div class="absolute top-0 py-5">
           <div class="mx-3">
             <SearchIcon class="w-4 h-4 text-gray-500" />
           </div>
