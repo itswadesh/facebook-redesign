@@ -1,5 +1,5 @@
 <template>
-  <div class="px-2 py-2 mt-4 bg-gray-100 rounded-lg shadow-2xl lg:px-3 lg:mx-5 lg:mt-8">
+  <div class="px-2 py-2 my-4 bg-gray-100 rounded-lg shadow-2xl lg:px-3 lg:mx-5 lg:my-8">
     <div class="flex justify-between">
       <div class="text-sm font-semibold text-gray-700">Instant Games</div>
       <div class="text-xs font-semibold text-blue-500">

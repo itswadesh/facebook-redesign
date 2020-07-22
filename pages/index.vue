@@ -1,21 +1,19 @@
 <template>
   <div>
     <Navbar />
-    <div class="flex-no-wrap xl:flex">
-      <div class="md:flex">
-        <div class="relative hidden w-1/4 text-gray-700 bg-gray-300 lg:flex">
+    <div class="flex-no-wrap justify-between w-full bg-gray-300 xl:flex">
+      <div class="flex-1 md:flex">
+        <div class="relative hidden w-1/5 text-gray-700 bg-gray-300 lg:flex">
           <Menu />
         </div>
-        <div class="bg-gray-300 lg:w-full">
-          <div class="px-2 py-2 lg:px-4 lg:my-3">
-            <Addstory />
-            <Story />
-            <Feeds />
-            <Review />
-          </div>
+        <div class="flex-1 w-full px-2 py-2 mx-auto bg-gray-300 lg:px-4 lg:my-3">
+          <Addstory />
+          <Story />
+          <Feeds />
+          <Review />
         </div>
       </div>
-      <div class="px-2 pt-2 bg-gray-200 xl:flex-col lg:hidden xl:flex lg:w-1/3 lg:px-10">
+      <div class="px-2 pt-2 bg-gray-200 xl:flex-col lg:hidden xl:flex lg:w-1/4 lg:px-10">
         <Upcomingevents />
         <Instantgames />
       </div>
@@ -31,7 +29,6 @@ import Feeds from "~/components/Feeds";
 import Review from "~/components/Review";
 import Upcomingevents from "~/components/Upcomingevents";
 import Instantgames from "~/components/Instantgames";
-import Logo from "~/components/Logo.vue";
 import {
   } from "vue-feather-icons";
 export default {
@@ -44,7 +41,6 @@ export default {
    Review,
    Upcomingevents,
    Instantgames,
-   Logo,
    },
 };
 </script>

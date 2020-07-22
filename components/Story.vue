@@ -79,13 +79,9 @@
 }
 </style>
 <script>
-import Logo from "~/components/Logo.vue";
-import {
- }
-from "vue-feather-icons";
+import {  } from 'vue-content-loader'
 export default {
-  components: {
-  },
+  components: { },
 };
 
 </script>

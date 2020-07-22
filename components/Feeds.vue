@@ -26,7 +26,7 @@
     </div>
     <div>
       <div class="flex justify-center">
-        <img src="/img/fb1.jpg" class="object-cover h-32 rounded-lg lg:h-full lg:w-full" />
+        <img src="/img/fb1.jpg" class="object-cover h-auto rounded-lg lg:h-full lg:w-full" />
       </div>
       <div class="flex justify-between my-2 wrap">
         <div class="mr-3">

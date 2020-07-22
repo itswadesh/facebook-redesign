@@ -20,7 +20,7 @@
           <div class="text-xs text-gray-600">United States of America</div>
         </div>
       </div>
-      <div class="flex justify-center mt-5">
+      <div class="flex justify-center pb-5 mt-5 border-b">
         <button
           class="flex px-16 py-2 text-xs text-white bg-blue-800 rounded-lg focus:outline-none hover:bg-blue-700"
         >
@@ -28,18 +28,19 @@
           <div class="mx-2 py-auto">is intrested</div>
         </button>
       </div>
-      <div class="text-gray-300">__________________________________________</div>
-      <div class="flex justify-around my-2">
-        <div>
+
+      <div class="flex justify-between my-2">
+        <div class="flex">
           <img src="/img/p1.jpg" class="object-cover w-8 h-8 rounded-full" />
-        </div>
-        <div class="mx-1 leading-tight">
-          <div class="flex">
-            <div class="text-xs">It.s Ava Wright's birthday today.</div>
-            <div class="px-1 text-xs"></div>
-            <div class="text-xs"></div>
+
+          <div class="mx-1 leading-tight">
+            <div class="flex">
+              <div class="text-xs">It.s Ava Wright's birthday today.</div>
+              <div class="px-1 text-xs"></div>
+              <div class="text-xs"></div>
+            </div>
+            <div class="text-xs">Help him have a great day!</div>
           </div>
-          <div class="text-xs">Help him have a great day!</div>
         </div>
         <div class="flex">
           <div class="w-6 h-6 px-1 py-1 bg-blue-100 rounded-full">
