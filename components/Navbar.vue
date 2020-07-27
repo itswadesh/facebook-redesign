@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between w-full px-2 py-1 text-white bg-blue-800 lg:py-0 lg:px-6">
-    <div class="my-1 text-sm font-semibold lg:text-2xl lg:my-2">facebook</div>
+    <div class="my-auto text-sm font-semibold lg:text-2xl lg:my-2">facebook</div>
     <div class="hidden w-full ml-6 md:block md:max-w-xs xl:max-w-sm">
       <form class="relative text-center" novalidate autocomplete="off">
         <div class="absolute top-0 py-5">

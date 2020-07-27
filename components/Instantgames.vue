@@ -24,8 +24,19 @@
       </div>
     </div>
     <div class="flex justify-between">
-      <input class="w-full my-1 mr-3 bg-gray-300 rounded-full focus:outline-none" />
-      <div class="my-auto mr-2">
+      <form class="relative text-center" novalidate autocomplete="off">
+        <div class="absolute top-0 mx-3">
+          <SearchIcon class="w-4 h-4 mt-4 text-gray-500 py-" />
+        </div>
+        <input
+          aria-label="Search Box"
+          type="search"
+          class="w-auto py-1 pl-8 my-2 text-sm bg-gray-300 rounded-full xl:w-full focus:outline-none"
+          placeholder="Search "
+          name="search"
+        />
+      </form>
+      <div class="mx-2 my-auto">
         <SlidersIcon class="w-4 h-4 text-gray-500" />
       </div>
     </div>
@@ -87,6 +98,7 @@ import {
   CalendarIcon,
   ChevronRightIcon ,
   SlidersIcon,
+  SearchIcon
  
 }
 from "vue-feather-icons";
@@ -97,6 +109,7 @@ export default {
   CalendarIcon,
   ChevronRightIcon ,
   SlidersIcon,
+  SearchIcon
   },
 
 };

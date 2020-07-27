@@ -7,8 +7,9 @@
           <a herf="/">See All</a>
         </div>
       </div>
-      <div>
-        <img src="/img/fb-12.jpg" class="object-cover w-full h-32 mt-3 border rounded-lg" />
+      <div class="relative">
+        <img src="/img/fb-12.jpg" class="object-cover w-full h-32 mt-3 rounded-lg" />
+        <div class="absolute top-0 mx-2 text-2xl font-medium text-white">Hollywood Nights</div>
       </div>
       <div class="flex my-4 text-xs leading-tight">
         <div class="p-1 text-center bg-blue-100 rounded-lg">
@@ -16,13 +17,13 @@
           <div class="font-semibold">25</div>
         </div>
         <div class="mx-3">
-          <div class="text-xs font-bold">Celebrity Waiter Event "Hollywood Nights"</div>
+          <div class="text-xs font-semibold">Celebrity Waiter Event "Hollywood Nights"</div>
           <div class="text-xs text-gray-600">United States of America</div>
         </div>
       </div>
-      <div class="flex justify-center pb-5 mt-5 border-b">
+      <div class="flex justify-center px-16 pb-5 mt-5 border-b md:px-64 lg:px-12">
         <button
-          class="flex px-16 py-2 text-xs text-white bg-blue-800 rounded-lg focus:outline-none hover:bg-blue-700"
+          class="flex justify-center w-full py-2 text-xs text-white bg-blue-800 rounded-lg focus:outline-none hover:bg-blue-700"
         >
           <StarIcon class="items-center w-4 h-4" />
           <div class="mx-2 py-auto">is intrested</div>
@@ -31,14 +32,9 @@
 
       <div class="flex justify-between my-2">
         <div class="flex">
-          <img src="/img/p1.jpg" class="object-cover w-8 h-8 rounded-full" />
-
-          <div class="mx-1 leading-tight">
-            <div class="flex">
-              <div class="text-xs">It.s Ava Wright's birthday today.</div>
-              <div class="px-1 text-xs"></div>
-              <div class="text-xs"></div>
-            </div>
+          <img src="/img/p1.jpg" class="relative object-cover w-8 h-8 rounded-full" />
+          <div class="mx-1 leading-tight lg:mx-3">
+            <div class="text-xs">It.s Ava Wright's birthday today.</div>
             <div class="text-xs">Help him have a great day!</div>
           </div>
         </div>
@@ -59,8 +55,8 @@
       </div>
       <div class="flex my-1">
         <img src="/img/p2.jpg" class="object-cover w-8 h-8 my-auto rounded-full" />
-        <div class="ml-2">
-          <div class="pr-40 mb-1 text-sm font-semibold">Aliah pitts</div>
+        <div class="w-full ml-2">
+          <div class="mb-1 text-sm font-semibold">Aliah pitts</div>
           <div class="flex justify-between">
             <button
               class="w-full py-2 text-xs font-semibold text-white bg-blue-800 rounded-lg hover:bg-blue-700 focus:outline-none"
