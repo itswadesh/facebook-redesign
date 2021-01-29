@@ -8,41 +8,40 @@
         </div>
         <div class="flex-1 w-full px-2 py-2 mx-auto bg-gray-300 lg:px-4 lg:my-3">
           <Addstory />
-          <Story />
+          <!-- <Story /> -->
           <Feeds />
-          <Review />
+          <!-- <Review /> -->
         </div>
       </div>
       <div class="px-2 pt-2 bg-gray-200 xl:flex-col lg:hidden xl:flex lg:w-1/4 lg:px-10">
         <Upcomingevents />
-        <Instantgames />
+        <instantgames />
       </div>
     </div>
   </div>
 </template>
 <script>
-import Navbar from "~/components/Navbar";
-import Menu from "~/components/Menu";
-import Addstory from "~/components/Addstory";
-import Story from "~/components/Story";
-import Feeds from "~/components/Feeds";
-import Review from "~/components/Review";
-import Upcomingevents from "~/components/Upcomingevents";
-import Instantgames from "~/components/Instantgames";
-import {
-  } from "vue-feather-icons";
+import Navbar from '~/components/Navbar'
+import Menu from '~/components/Menu'
+import Addstory from '~/components/Addstory'
+import Story from '~/components/Story'
+import Feeds from '~/components/Feeds'
+import Review from '~/components/Review'
+import Upcomingevents from '~/components/Upcomingevents'
+import Instantgames from '~/components/Instantgames'
+import {} from 'vue-feather-icons'
 export default {
   components: {
-   Navbar,
-   Menu,
-   Addstory,
-   Story,
-   Feeds,
-   Review,
-   Upcomingevents,
-   Instantgames,
-   },
-};
+    Navbar,
+    Menu,
+    Addstory,
+    Story,
+    Feeds,
+    Review,
+    Upcomingevents,
+    Instantgames,
+  },
+}
 </script>
 <style scoped>
 .menu {

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-6 ml-5 bg-white border rounded-lg shadow-2xl lg:px-5 lg:py- lg:ml-10">
+  <!-- <div class="flex px-6 ml-5 bg-white border rounded-lg shadow-2xl lg:px-5 lg:py- lg:ml-10">
     <img src="/img/d1.jpg" class="w-8 h-8 my-1 -ml-10 rounded-full lg:h-10 lg:w-10 lg:my-3" />
 
     <div class="flex items-center justify-between border-gray-300 lg:w-full lg:py-2">
@@ -36,25 +36,25 @@
         </button>
       </div>
     </div>
-  </div>
+  </div>-->
+  <div
+    class="mb-5 text-xl font-bold text-center"
+  >The best way to find yourself is to lose yourself in the service of others. - Mahatma Gandhi</div>
 </template>
 <script>
-import Logo from "~/components/Logo.vue";
+import Logo from '~/components/Logo.vue'
 import {
-   MoreHorizontalIcon,
+  MoreHorizontalIcon,
   ImageIcon,
-  TagIcon ,
+  TagIcon,
   MapPinIcon,
-  }
-from "vue-feather-icons";
+} from 'vue-feather-icons'
 export default {
   components: {
-   MoreHorizontalIcon,
-  ImageIcon,
-  TagIcon ,
-  MapPinIcon,
+    MoreHorizontalIcon,
+    ImageIcon,
+    TagIcon,
+    MapPinIcon,
   },
-
-};
-
+}
 </script>

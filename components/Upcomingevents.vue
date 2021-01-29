@@ -1,6 +1,74 @@
 <template>
-  <div class>
-    <div class="p-2 bg-white rounded-lg shadow-2xl lg:p-4 lg:mx-4 lg:my-3">
+  <div class="p-2 bg-white rounded-lg shadow-2xl lg:p-4 lg:mx-4 lg:my-3">
+    <div>
+      <h1 class="text-center">Employ Self Portal</h1>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 border rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-8">HR</div>
+        </div>
+      </button>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 border rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-8">Benefits</div>
+        </div>
+      </button>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-3">Applicant</div>
+        </div>
+        <div class="py-1 font-semibold text-white bg-red-500 rounded-full"></div>
+      </button>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-3">Payroll</div>
+        </div>
+        <div class="px-1 my-auto font-semibold text-white bg-red-500 rounded-full"></div>
+      </button>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-3">Training</div>
+        </div>
+        <div class="px-1 my-auto font-semibold text-white bg-red-500 rounded-full"></div>
+      </button>
+      <button
+        class="flex justify-between w-full py-1 pl-1 pr-2 my-2 rounded-lg focus:outline-none hover:bg-gray-300 hover:border-gray-700"
+      >
+        <div class="flex">
+          <div class="p-1 my-auto mr-2 bg-blue-100 rounded-full shadow-2xl">
+            <img src="/img/fb-2.jpg" class="object-cover w-8 h-8 rounded-full" />
+          </div>
+          <div class="my-auto mr-3">News</div>
+        </div>
+        <div class="px-1 my-auto font-semibold text-white bg-red-500 rounded-full"></div>
+      </button>
+    </div>
+
+    <!-- <div class="p-2 bg-white rounded-lg shadow-2xl lg:p-4 lg:mx-4 lg:my-3">
       <div class="flex justify-between">
         <div class="text-sm font-semibold">Upcoming events</div>
         <div class="text-xs font-semibold text-blue-500">
@@ -67,26 +135,41 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 <script>
-import Logo from "~/components/Logo.vue";
+import Logo from '~/components/Logo.vue'
 import {
-  MessageSquareIcon  ,
   StarIcon,
   CalendarIcon,
-  
-}
-from "vue-feather-icons";
+  BookOpenIcon,
+  MessageSquareIcon,
+  MonitorIcon,
+  UsersIcon,
+  ShoppingBagIcon,
+  BookIcon,
+  SmartphoneIcon,
+  DownloadIcon,
+  ChevronDownIcon,
+  PowerIcon,
+  MoreHorizontalIcon,
+} from 'vue-feather-icons'
 export default {
   components: {
-  
-  MessageSquareIcon  ,
-  StarIcon,
-  CalendarIcon,
-   },
-
-};
-
+    StarIcon,
+    CalendarIcon,
+    BookOpenIcon,
+    MessageSquareIcon,
+    MonitorIcon,
+    UsersIcon,
+    ShoppingBagIcon,
+    BookIcon,
+    SmartphoneIcon,
+    DownloadIcon,
+    ChevronDownIcon,
+    PowerIcon,
+    MoreHorizontalIcon,
+  },
+}
 </script>

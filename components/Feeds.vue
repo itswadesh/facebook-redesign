@@ -1,6 +1,6 @@
 <template>
-  <div class="p-2 bg-white rounded-t shadow-2xl lg:p-4">
-    <div class="flex items-center justify-between">
+  <div class="p-4 bg-white rounded-lg shadow-2xl">
+    <!-- <div class="flex items-center justify-between">
       <div class="flex mb-3">
         <img
           src="/img/p3.jpg"
@@ -18,12 +18,12 @@
       <button class="mb-2 font-bold text-gray-600 focus:outline-none">
         <MoreHorizontalIcon />
       </button>
-    </div>
+    </div>-->
 
-    <div class="mb-2 text-xs">
+    <!-- <div class="mb-2 text-xs">
       A snippet #Nikon Experti Jaydin Johnes Photography's Caputring
       Beautiful Bokeh Photography shot on the Nikon Z 7.
-    </div>
+    </div>-->
     <div>
       <div class="flex justify-center">
         <img src="/img/fb1.jpg" class="object-cover h-auto rounded-lg lg:h-full lg:w-full" />
@@ -44,19 +44,12 @@
   </div>
 </template>
 <script>
-import Logo from "~/components/Logo.vue";
-import {
-  
-  MoreHorizontalIcon,
-  GlobeIcon 
-}
-from "vue-feather-icons";
+import Logo from '~/components/Logo.vue'
+import { MoreHorizontalIcon, GlobeIcon } from 'vue-feather-icons'
 export default {
   components: {
-  
-  MoreHorizontalIcon,
-  GlobeIcon },
-
-};
-
+    MoreHorizontalIcon,
+    GlobeIcon,
+  },
+}
 </script>
